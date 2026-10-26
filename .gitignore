@@ -1,11 +1,11 @@
-text
-# LaTeX auxiliary files
+# Ignore all auxiliary clutter globally
 *.aux
 *.log
 *.out
 *.synctex.gz
 *.fdb_latexmk
 *.fls
-*.toc
-*.blg
-*.bbl
+
+# Do NOT ignore the build folder itself, but ignore its clutter
+build/*
+!build/*.pdf
