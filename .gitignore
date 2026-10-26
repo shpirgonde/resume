@@ -1,0 +1,11 @@
+text
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.toc
+*.blg
+*.bbl

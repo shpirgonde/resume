@@ -1,0 +1,139 @@
+\documentclass[11pt,a4paper]{article}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage[left=0.8in,top=0.8in,right=0.8in,bottom=0.8in]{geometry} 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{sourcesanspro} 
+\usepackage{xcolor}      
+\usepackage{titlesec}    
+\usepackage{enumitem}    
+\usepackage{parskip}     
+\usepackage{ragged2e}
+\usepackage{microtype}
+\usepackage{hyperref} 
+
+% Define your professional color for external web links
+\definecolor{spblue}{RGB}{0,102,204}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,       % Keeps internal document links black
+    filecolor=black,       % Keeps local file links black
+    citecolor=black,       % Keeps academic citations black
+    urlcolor=spblue % ONLY colors external web/email hyperlinks
+}
+
+
+
+%----------------------------------------------------------------------------------------
+%	COLORS & STYLES
+%----------------------------------------------------------------------------------------
+\definecolor{titleblue}{HTML}{00199e} 
+\definecolor{subtitleblue}{HTML}{3b82f6} 
+\definecolor{darktext}{HTML}{222222} 
+
+\color{darktext}
+\linespread{1} 
+\setlength{\parskip}{0.1em} 
+
+\titleformat{\section}{\Large\bfseries\color{titleblue}}{}{0em}{} 
+\titlespacing*{\section}{0pt}{0.7em}{0.15em}
+
+\newcommand{\blueitem}[1]{\textcolor{subtitleblue}{\textbf{#1}}}
+
+\setlist[itemize]{label=\textbullet, leftmargin=*, noitemsep, topsep=0pt, parsep=0pt}
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT CONTENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+%--- HEADER ---
+{\Huge \textbf{\textcolor{titleblue}{Shivshankar Shrikant Pirgonde}}} \vspace{0.2em}
+
+Pune, India \\
+Mobile: +91 8605099539\\
+Email: \href{mailto:shpirgonde@gmail.com}{shpirgonde@gmail.com} \\
+GitHub: \href{https://github.com/shpirgonde}{https://github.com/shpirgonde}
+
+
+
+\vspace{0.2em}
+
+%--- PERSONAL PROFILE ---
+\section*{Personal Profile}
+Experienced Front-End Developer with 5.4 years of expertise in Angular, TypeScript, JavaScript, and RxJS. Worked on enterprise web applications involving feature development, application enhancements, bug fixing, REST API integration, and performance improvements.
+
+%--- SKILLS ---
+\section*{Skills}
+Angular, HTML, CSS, Javascript, Typescript, Node.js, MySQL, MongoDB, Git\\
+Languages: Marathi (Native), English (Intermediate), Hindi
+
+%--- EDUCATION ---
+\section*{Education}
+
+\vspace{0.1em}
+
+\blueitem{PGDAC | 2019 -- 2020} \\
+\textit{CDAC, Pune} \\
+Completed the Post Graduate Diploma in Advanced Computing from Sunbeam Institute of Information Technology, Pune.
+
+\vspace{0.3em}
+
+\blueitem{MCA | 2012 -- 2015} \\
+\textit{Savitribai Phule Pune University, Pune} \\
+Completed a Master of Computer Applications (First Class), from RMD Sinhgad TIC Warje, PUNE
+
+\vspace{0.3em}
+
+\blueitem{BCA | 2009 -- 2012} \\
+\textit{Solapur University, Solapur} \\
+Completed a Bachelor of Computer Application (First Class), from HNCC College Solapur.
+
+\vspace{0.2em}
+
+%--- EXPERIENCE ---
+\section*{Experience}
+
+\blueitem{Cognizant | Developer | 2024 -- 2025} \\
+\textit{Project : Cotality — Real estate data and analytics platform}
+
+\begin{itemize}
+    \item Developed responsive UI components and screens using HTML, CSS, Bootstrap, and Angular 16.
+    
+    \item Implemented Angular services and business logic in TypeScript for data handling and application workflows.
+    
+    \item Integrated REST APIs and handled asynchronous data flows using RxJS within Angular applications.
+    
+    \item Collaborated with cross-functional teams using Git for source code management, version control, and feature integration.
+    
+    \item Contributed to bug resolution, feature enhancements, and ongoing maintenance of enterprise applications.
+\end{itemize}
+
+\vspace{0.3em}
+
+\blueitem{Shipco IT Private Limited | Application Developer | 2020 -- 2023} \\
+\textit{Project : GRDB — Global Rate Database application developed with Angular, Node.js, MySQL, and AWS Lambda.}
+
+\begin{itemize}
+    \item Developed responsive UI components and screens using Angular 16, TypeScript, and ngx-bootstrap.
+    
+    \item Implemented Angular services and application business logic for enterprise web applications.
+    
+    \item Created and managed front-end builds for deployment and team integration activities.
+    
+    \item Developed RESTful backend services and server-side logic using Node.js 16.
+    
+    \item Collaborated with development teams to support feature enhancements, bug fixes, and application maintenance.
+\end{itemize}
+
+%--- Self Learning ---
+
+\section*{Additional Technologies}
+Go, C (Self-learning / Personal Practice)
+
+
+\end{document}
